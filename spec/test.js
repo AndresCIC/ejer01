@@ -1,6 +1,10 @@
+var miModulo = require('../index.js');
+
+
 describe("A suite", function() {
   it("contains spec with an expectation", function() {
-    expect(true).toBe(true);
+    resultado = miModulo.sumar(4,5);
+	expect(resultado).toBe(9);
   });
 });
 
